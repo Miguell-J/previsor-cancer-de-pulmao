@@ -6,6 +6,9 @@ Este projeto consiste em um aplicativo que utiliza um modelo de machine learning
 
 ## Sumário do Código
 ### Parte 1: Treinamento do Modelo e Avaliação
+
+<img src="matrix.png"/>
+
 Treinamento de Modelos de Machine Learning:
 
 - Treinamento de modelos como Regressão Logística, Support Vector Machine (SVM) e Gaussian Naive Bayes.
@@ -13,7 +16,8 @@ Treinamento de Modelos de Machine Learning:
 - Visualização Comparativa de Modelos:
 
 - Criação de um gráfico de barras para comparar a acurácia dos modelos treinados.
-- Persistência do Modelo:
+
+<img src="acc.png"/>
 
 - Salvamento do modelo de Regressão Logística utilizando a biblioteca Joblib.
 ### Parte 2: Aplicativo Streamlit para Previsão
@@ -37,7 +41,6 @@ Apresentação da probabilidade específica em formato percentual.
 - Visualização Gráfica:
 
 Criação de um gráfico circular para ilustrar como os dados médicos inseridos se relacionam com o resultado da previsão.
-- Persistência do Modelo:
 
 Salvamento do modelo treinado em um arquivo utilizando Joblib.
 ## Execução do Código
