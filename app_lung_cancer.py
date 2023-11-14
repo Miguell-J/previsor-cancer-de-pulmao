@@ -4,10 +4,8 @@ import pandas as pd
 import numpy as np
 from streamlit.components.v1 import html
 import matplotlib.pyplot as plt
-import os
 
-model_path = os.path.join(os.path.dirname(__file__), 'LogisticRegressor.joblib')
-model = jb.load(model_path)
+model = jb.load('LogisticRegressor.joblib')
 
 
 image_url = "https://www.bhtorax.com.br/wp-content/uploads/2021/01/O-que-e-o-cancer-de-pulmao_-Foto-5.jpg"
